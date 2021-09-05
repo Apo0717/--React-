@@ -1,0 +1,121 @@
+import React from 'react'
+
+function IndexMy() {
+  return (
+    <>
+      <main>
+        <div class="profile-info-bg">
+          {/* <!-- 最上方個人資訊欄 --> */}
+          <div class="profile-wrap">
+            <div class="title-display">
+              <div class="title-box">
+                <div class="title-text">林思妤 Apple</div>
+              </div>
+            </div>
+
+            <div class="top-info-wrap">
+              <div>
+                <img class="selfie" src="./img/S__71925914.jpg" alt="照片" />
+              </div>
+              <div class="top-info-text">
+                <div class="top-info-text-row">
+                  前端工程師 / 視覺設計 / 插畫、漫畫家
+                </div>
+                <div class="top-info-text-row">qw7896541@gmail.com</div>
+                <div class="top-info-text-row">https://github.com/Apo0717</div>
+              </div>
+            </div>
+
+            {/* <!-- About Me --> */}
+            <div class="wrap about-me-wrap">
+              <div class="sub-title-box sub-title-box-aboutme">About Me</div>
+              <div class="info-text info-text-aboutme">
+                我畢業於藝術與設計科系,人生一直與畫面與圖像的創作為伍,在學習程式語言的初期,許多語法的邏輯並不像圖像設計那樣的直觀,多虧了過去做美編的電商後台上架商品與廣告的經驗,讓我在一些功能流程還有實際應用上能夠快速地進入狀況,過去只能夠操作介面,而如今自己可以寫出功能讓人使用,優化過去的使用經驗,這些都是學習過程很大的成就感與動力來源。
+                <br />
+                <br />
+                有鑑於對自身的了解,與同學協作與競爭更能刺激學習欲望,因此報名了2021年2月政府資策會的前端工程師課程。
+                <br />
+                <br />
+                開始深入學習後,發現前端需要學會的技術很廣,同時程式的更新速度也非常的快,下課後除了複習上課內容,也會和同學分享自己上課的筆記,並於不明白的地方進行討論與加強練習,網路上還有許多社團或前輩的不藏私技術文章,雖然看得很辛苦卻也很享受這份學習後帶來的成就感,感謝老師與同學們建立的良好學習風氣,我會繼續努力在學海游下去的。
+              </div>
+            </div>
+            <div class="wrap bottom-info-wrap">
+              <div class="left-exp-wrap">
+                <div class="sub-title-box">Experiences / Education</div>
+                <div class="info-text">
+                  <div class="info-text-bottom">
+                    <span>2020/07 - 自由接案 & 程式學習</span>
+                    <br />
+                    APP、無人咖啡機的機台介面UI、機台外觀設計...等,一邊設計同時研究切版與語法。
+                    <br />
+                    於2021年2月前往資策會學習更完整的前端技術 。
+                  </div>
+
+                  <div class="info-text-bottom">
+                    <span>2018/04 - 2020/06 奇雅貿易有限公司</span>
+                    <br />
+                    擔任美編設計,負責商品拍攝&後製,美化文案,設計BANNER、EDM等,公司大量舊商品資料的整理與系統化。於各大電商平台後台上下架,接觸了一些簡易的程式語言,
+                    對程式語言產生興趣 。
+                  </div>
+                  <div class="info-text-bottom">
+                    <span>2017/05 - 2017/11 朕業有限公司</span>
+                    <br />
+                    擔任美編設計,負責髮廊DM、髮品包裝設計等、舊產品的宣傳資料優化。處理訂單以及包貨。
+                  </div>
+                  <div class="info-text-bottom">
+                    <span>
+                      2015/08 清華大學南大校區 藝術與設計學系-創作組(學士)
+                    </span>
+                  </div>
+                </div>
+              </div>
+              {/* <!-- 下方右邊區 --> */}
+              <div class="right-ps-wrap">
+                <div class="project-wrap">
+                  <div class="sub-title-box">Project</div>
+                  <div class="info-text info-text-bottom">
+                    <span>LunarPhase 女性生理用品資訊站&自品牌販售平台</span>
+                    <br />
+                    ＊網站視覺協助設計整合
+                    <br />
+                    ＊心理測驗配對適合商品
+                    <br />
+                    ＊商品優惠組合自由選配
+                    <br />
+                    ＊建置MySQL資料庫
+                    <br />
+                    ＊組合商品資料API串接
+                    <br />
+                  </div>
+                </div>
+                <div class="skills-wrap">
+                  <div class="sub-title-box">Skills</div>
+                  <div class="info-text">
+                    <div class="row">
+                      <div class="skill-name">前端</div>
+                      <div class="skill-item">
+                        HTML5 CSS3 JavaScrip
+                        <br />
+                        React SCSS Bootstrap JQuery
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="skill-name">後端</div>
+                      <div class="skill-item">React PHP Node.js</div>
+                    </div>
+                    <div class="row">
+                      <div class="skill-name">設計</div>
+                      <div class="skill-item">Photoshop illustrator XD</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </>
+  )
+}
+
+export default IndexMy

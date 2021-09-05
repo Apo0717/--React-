@@ -1,0 +1,109 @@
+/* 作品集------------------ */
+/* 分類標籤 */
+.works-cat-wrap
+  display: flex
+  /* height: 20%; */
+  justify-content: flex-end
+  /* background-color: deepskyblue; */
+  /* border-bottom: dashed #dec5c5 2px; */
+
+.cat-row
+  width: 20%
+  /* height: 40px; */
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  text-align: center
+  cursor: pointer
+  margin: 10px
+  padding: 5px
+  /* text-transform: uppercase; */
+  position: relative
+  overflow: hidden
+  transition: 0.4s
+  font-size: 20px
+  font-weight: 900
+
+.cat-row-click
+  background-color: red 
+
+.cat-icon
+  visibility: hidden
+  margin-bottom: 5px
+
+  .cat-row:hover &
+    visibility: visible
+
+.cat-items:hover
+  color: rgb(184, 79, 166)
+
+.cat-row .cat-underline:after
+  position: absolute
+  transition: 0.3s
+  content: ''
+  width: 0
+  left: 50%
+  bottom: 0
+  height: 3px
+  /* background: #837b7b; */
+  border-bottom: #dec5c5 2px dashed
+  box-sizing: border-box
+
+.cat-row:hover .cat-underline
+  color: #c4a4a4
+
+.cat-row:hover .cat-underline:after
+  width: 100%
+  left: 0
+
+/* 內容展示 */
+.works-wrap
+  margin-top: 60px
+  margin-bottom: 60px
+  text-align: center
+  display: grid
+  grid-template-columns: 1fr 1fr
+  grid-gap: 60px 40px
+
+.view-img
+  cursor: pointer
+  object-fit: cover
+  width: 100%
+  height: 300px
+  margin-bottom: 20px
+  border-radius: 5px
+  background-color: indianred
+  transition-duration: .4s
+  transition-timing-function: ease
+  overflow: hidden
+  text-overflow: ellipsis
+  box-shadow: 0 0 10px #e2e2e2
+
+  &:hover
+    filter: brightness(.8)
+
+.works-box
+  // width: 100%
+  display: flex
+  flex-direction: column
+  align-items: center
+
+.works-title
+  font-size: 18px
+  font-weight: 900
+  margin-bottom: 10px
+
+.works-info
+  width: 95%
+
+.page-wrap
+  display: flex
+  justify-content: center
+
+.page-num-wrap
+  display: flex
+  margin: 0 15px
+
+.page-num
+  margin: 0 5px
